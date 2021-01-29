@@ -7,7 +7,7 @@ app.use(bodyParser.json());
 
 app.post('/tweeted', (request, response) => {
     const { body } = request;
-    console.log(body.tweet);
+    console.log(body.name);
 });
 
 app.listen(port, () => {
